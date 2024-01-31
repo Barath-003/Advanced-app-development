@@ -1,0 +1,136 @@
+.body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding-bottom: 43px;
+    /* padding-top: 5px; */
+  }
+  
+  .login-container {
+    display: flex;
+    box-shadow: 0 16px 16px 0 rgba(66, 23, 37, 0.37);
+    background-color: #2c2f59;
+    border-radius: 40px; /* Adjusted border radius */
+  }
+  
+  .img-container {
+    flex: 1;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 8px 32px 0 rgba(66, 23, 37, 0.37);
+    border-radius: 20px 30px 30px 20px;
+  }
+  
+  .img-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .login-form-container {
+    flex: 1;
+    padding: 10px;
+    box-shadow: 0px 4px 16px 4px rgba(66, 23, 37, 0.37);
+    background-color: #f9f9f9;
+    width: 100%; /* Adjusted width */
+    max-width: 400px;
+    border-radius: 30px; /* Adjusted border radius */
+    height: 580px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .h3{
+    margin-top: 30px;
+    font-size: small;
+  }
+  
+  .input-group {
+    margin-bottom: 7px; /* Adjusted margin-bottom */
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Adjusted border radius */
+    background-color: rgb(212, 213, 231);
+  }
+  
+  input[type="lemail"],
+  input[type="lpassword"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Adjusted border radius */
+  }
+  
+  button[type=submit] {
+    background-color: #2c2f59;
+    color: #f9f9f9;
+    cursor: pointer;
+    padding: 12px; /* Adjusted padding */
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button[type=submit]:hover {
+    background-color: #7e4d8d;
+  }
+  
+  .additional-links {
+    color: #0a0909;
+    font-size: 14px;
+    padding-top: 30px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    border: 1px solid #462e89;
+    border-radius: 5px; /* Adjusted border radius */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+  }
+  /* LoginPage.css */
+  
+  /* ... (existing styles) */
+  
+  .user-type-radio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-type-radio label {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-type-radio input {
+    margin-right: 5px;
+  }
+  
+  /* ... (existing styles) */
+  
