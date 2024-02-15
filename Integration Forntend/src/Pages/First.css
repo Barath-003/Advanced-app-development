@@ -1,0 +1,259 @@
+.ha {
+    backdrop-filter: blur(5px);
+    background-color: rgba(180, 184, 122, 0.295);
+    border-radius: 26px;
+    
+    width: 700px;
+    height:586px;
+    padding:80px ;
+    text-align:center;
+    margin-left: 270px;
+    text-align: center;
+
+  }
+  
+  .centeredText {
+   
+    margin: 0 auto;
+    font-weight: 00;
+    font-style: normal;
+  font-size: 70px;
+  color:rgb(36, 67, 171);
+  }
+  .ba{
+    font-family: 'Times New Roman', Times, serifZ;
+    font-size: 30px;
+    color: black;
+  }
+  .userbut{
+    width: 110px;
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5cdf25 0, #18b241 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(185, 246, 92, 0.4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  margin-right: 30PX;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.userbut:focus {
+  box-shadow: #1a2318 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.userbut:hover {
+  box-shadow: rgba(182, 211, 53, 0.4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #99e03c 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.userbut:active {
+  box-shadow: #53743e 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.Adminbut{
+    width: 110px;
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5cdf25 0, #18b241 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(185, 246, 92, 0.4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.Adminbut:focus {
+  box-shadow: #60e03c 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.Adminbut:hover {
+  box-shadow: rgba(182, 211, 53, 0.4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #99e03c 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.Adminbut:active {
+  box-shadow: #7be03c 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.centeredText {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 70px;
+    color: rgb(36, 67, 171);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  
+  .centeredText::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(transparent 70%, rgb(36, 67, 171) 100%);
+    z-index: 1;
+    animation: slideInFromTop 1s ease-out;
+  }
+  .centeredText {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 70px;
+    color: rgb(36, 67, 171);
+    position: relative;
+    overflow: hidden;
+    font-family: 'Your-Font-Family'; /* Add your desired font-family */
+  }
+  
+  .centeredText::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(transparent 70%, rgb(36, 67, 171) 100%);
+    z-index: 1;
+    animation: slideInFromTop 1s ease-out;
+  }
+  
+  /* Additional styles for the BORCELLE text */
+  .centeredText span {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Customize the individual letters if needed */
+  .centeredText span:nth-child(1) {
+    color: #4D163D;
+  }
+  
+  .centeredText span:nth-child(2) {
+    color: #840037;
+  }
+  
+  .centeredText span:nth-child(3) {
+    color: #BD0034;
+  }
+  
+  .centeredText span:nth-child(4) {
+    color: #BD0034;
+  }
+  
+  .centeredText span:nth-child(5) {
+    color: #FDB731;
+  }
+  .animate-character
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.btn-shine{
+position: absolute;
+top: 33%;
+left: 50%;
+transform: translate(-50%,-50%);
+/* padding: 12px 48px; */
+color: #ffffff;
+background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+background-position: 0;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: shine 3s infinite linear;
+animation-fill-mode: forwards;
+-webkit-text-size-adjust: none;
+font-weight: 600;
+font-size: 20px;
+text-decoration: none;
+white-space: nowrap;
+}
+  
+@keyframes shine{
+0%{
+  background-position: 0;
+}
+60%{
+
+  background-position: 180px
+}
+100%{
+  background-position: 380px;
+}
+}
+    

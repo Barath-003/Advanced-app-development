@@ -1,0 +1,64 @@
+/* Home.css (add this code at the end) */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .social-iconss {
+    margin-bottom: 15px;
+  }
+  
+  .social-iconss a {
+    color: #f2f0f4;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .party-management {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .party-management h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .party-management p {
+    margin-bottom: 10px;
+  }
+  
+  .party-management ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .party-management li {
+    margin-bottom: 5px;
+  }
+  
+  .contact-button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    /* margin-left:540px; */
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #ddd;
+  }
+  .ven{
+    margin-left: 90px;
+  }
+  /* .copyright{
+    background-color: #ddd;
+  } */
